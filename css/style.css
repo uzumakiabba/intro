@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('/intro-component-with-signup-form-master/images/bg-intro-desktop.png');
+}
+
+
+.headers{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 13px;
+}
+
+
+.container{
+    width: 90%;
+    margin: 10% auto;
+    
+}
+
+.norm{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+    
+    
+}
+
+form{
+    background-color: #fff;
+    padding: 35px 23px;
+    border-radius: 10px;
+}
+
+.form-group{
+    position: relative;
+    
+}
+
+.form-group small{
+    visibility: hidden;
+    color:hsl(0, 100%, 74%);
+}
+
+.form-group.error small{
+    visibility: visible;
+}
+
+.row{
+    border-color:hsl(0, 100%, 74%);
+}
+
+.form-group i{
+    
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    visibility:hidden;
+}
+
+.form-group.error i{
+    visibility: visible;
+}
+
+
+.fa-exclamation-circle{
+    color:  hsl(0, 100%, 74%) ;
+}
+
+.offer-head{
+    margin-bottom: 30px;
+}
+    
+ 
+ .error{
+     border-color:  hsl(0, 100%, 74%) ;
+ }
+ 
+
+ .btn-edt-try{
+     background-color: hsl(248, 32%, 49%);
+ }
+
+ .after{
+     font-weight: 700;
+ }
+
+ .btn-edt-bt{
+     background-color:hsl(154, 59%, 51%) ;
+ }
+
+ .ts{
+     text-align: center;
+     margin: 5px 0;
+ }
+     
+     .tsc{
+         color:hsl(0, 100%, 74%) ;
+         text-decoration: none;
+         
+     }
+
+     .tsc:hover{
+         
+         color: hsl(0, 100%, 74%) ;
+     }
+
+     @media(max-width:375px){
+         .container{
+            
+             width: 100%;
+         }
+         .norm{
+            text-align: center;
+         }
+     }
